@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
 });
-
+//a
 // Middleware
 // Reemplaza la línea de cors:
 app.use(cors({
